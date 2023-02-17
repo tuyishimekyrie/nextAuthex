@@ -10,7 +10,7 @@ type props = {
 };
 const Home = ({ session }: props) => {
   const { data: user }: any = useSession();
-  console.log(user);
+  // console.log(user);
   return (
     <div>
       {!user && <Link
