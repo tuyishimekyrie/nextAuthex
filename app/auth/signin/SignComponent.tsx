@@ -10,7 +10,7 @@ type props = {
 const SignComponent = ({ providers }: props) => {
   return (
     <div>
-      {Object.values(providers!).map((provider) => (
+      {Object?.values(providers!).map((provider) => (
         <div key={provider.name}>
           <button
             className="bg-indigo-600 hover:bg-cyan-500  py-1.5 px-3 roundend-sm"
